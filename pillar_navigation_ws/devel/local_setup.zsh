@@ -1,0 +1,1 @@
+/home/joao/pillar_navigation_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh

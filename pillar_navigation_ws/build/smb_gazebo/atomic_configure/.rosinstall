@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/setup.sh

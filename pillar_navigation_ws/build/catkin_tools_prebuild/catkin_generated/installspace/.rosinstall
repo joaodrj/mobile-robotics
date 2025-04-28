@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/joao/pillar_navigation_ws/install/setup.sh

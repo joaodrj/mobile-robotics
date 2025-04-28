@@ -1,0 +1,4 @@
+Symlinking /home/joao/pillar_navigation_ws/devel/share/smb_gazebo/cmake/smb_gazeboConfig.cmake
+Symlinking /home/joao/pillar_navigation_ws/devel/share/smb_gazebo/cmake/smb_gazeboConfig-version.cmake
+Symlinking /home/joao/pillar_navigation_ws/devel/lib/libodometry_source_plugin.so
+Symlinking /home/joao/pillar_navigation_ws/devel/lib/pkgconfig/smb_gazebo.pc
