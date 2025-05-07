@@ -1,1 +1,1 @@
-/home/joao/pillar_navigation_ws/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig.cmake
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_control/share/smb_control/cmake/smb_controlConfig.cmake

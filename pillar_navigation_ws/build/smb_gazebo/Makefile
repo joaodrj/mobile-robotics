@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
+CMAKE_SOURCE_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/pillar_navigation_ws/build/smb_gazebo
+CMAKE_BINARY_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles /home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

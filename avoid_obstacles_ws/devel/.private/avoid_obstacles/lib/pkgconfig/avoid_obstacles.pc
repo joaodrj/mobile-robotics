@@ -1,0 +1,8 @@
+prefix=/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles
+
+Name: avoid_obstacles
+Description: Description of avoid_obstacles
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.pdb"
-  "/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
+  "/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.pdb"
+  "/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
   "CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o"
 )
 

@@ -1,0 +1,1 @@
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/lib/pkgconfig/avoid_obstacles.pc

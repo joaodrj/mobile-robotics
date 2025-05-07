@@ -67,14 +67,14 @@ set(smb_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(smb_control_SOURCE_PREFIX /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_control)
-  set(smb_control_DEVEL_PREFIX /home/joao/pillar_navigation_ws/devel/.private/smb_control)
+  set(smb_control_SOURCE_PREFIX /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_control)
+  set(smb_control_DEVEL_PREFIX /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_control)
   set(smb_control_INSTALL_PREFIX "")
   set(smb_control_PREFIX ${smb_control_DEVEL_PREFIX})
 else()
   set(smb_control_SOURCE_PREFIX "")
   set(smb_control_DEVEL_PREFIX "")
-  set(smb_control_INSTALL_PREFIX /home/joao/pillar_navigation_ws/install)
+  set(smb_control_INSTALL_PREFIX /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install)
   set(smb_control_PREFIX ${smb_control_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/joao/pillar_navigation_ws/install/lib;/home/joao/pillar_navigation_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install/lib;/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

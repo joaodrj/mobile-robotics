@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_control
+CMAKE_SOURCE_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/pillar_navigation_ws/build/smb_control
+CMAKE_BINARY_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_control
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/pillar_navigation_ws/build/smb_control/CMakeFiles /home/joao/pillar_navigation_ws/build/smb_control/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_control/CMakeFiles /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_control/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/pillar_navigation_ws/build/smb_control/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_control/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

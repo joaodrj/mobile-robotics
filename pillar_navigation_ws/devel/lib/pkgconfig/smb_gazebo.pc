@@ -1,1 +1,1 @@
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/pkgconfig/smb_gazebo.pc
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/pkgconfig/smb_gazebo.pc

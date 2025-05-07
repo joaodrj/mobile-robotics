@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/joao/pillar_navigation_ws/devel/.private/smb_description/setup.sh
+    local-name: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_description/setup.sh

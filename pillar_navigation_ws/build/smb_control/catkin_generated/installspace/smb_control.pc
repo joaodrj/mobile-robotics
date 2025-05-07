@@ -1,4 +1,4 @@
-prefix=/home/joao/pillar_navigation_ws/install
+prefix=/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install
 
 Name: smb_control
 Description: Description of smb_control

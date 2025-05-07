@@ -1,0 +1,7 @@
+avoid_obstacles
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/cmake.lock /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/./cmake.lock
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/share/avoid_obstacles/cmake/avoid_obstaclesConfig.cmake /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/share/avoid_obstacles/cmake/avoid_obstaclesConfig.cmake
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/share/avoid_obstacles/cmake/avoid_obstaclesConfig-version.cmake /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/share/avoid_obstacles/cmake/avoid_obstaclesConfig-version.cmake
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/lib/pkgconfig/avoid_obstacles.pc /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/lib/pkgconfig/avoid_obstacles.pc
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/lib/avoid_obstacles/cmake.lock /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/lib/avoid_obstacles/cmake.lock
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/avoid_obstacles/lib/avoid_obstacles/obstacle_avoider.py /home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/lib/avoid_obstacles/obstacle_avoider.py

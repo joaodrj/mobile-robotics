@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/joao/pillar_navigation_ws/devel/.private/catkin_tools_prebuild/setup.sh
+    local-name: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/catkin_tools_prebuild/setup.sh

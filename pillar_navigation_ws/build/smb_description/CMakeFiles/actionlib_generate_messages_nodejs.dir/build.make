@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_description
+CMAKE_SOURCE_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/pillar_navigation_ws/build/smb_description
+CMAKE_BINARY_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_description
 
 # Utility rule file for actionlib_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_generate_messages_nodejs.dir/depend:
-	cd /home/joao/pillar_navigation_ws/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_description /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_description /home/joao/pillar_navigation_ws/build/smb_description /home/joao/pillar_navigation_ws/build/smb_description /home/joao/pillar_navigation_ws/build/smb_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_description /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_description /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_description /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_description /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_description/CMakeFiles/actionlib_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 

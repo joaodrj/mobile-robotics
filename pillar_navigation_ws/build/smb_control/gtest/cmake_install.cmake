@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/joao/pillar_navigation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/joao/pillar_navigation_ws/build/smb_control/gtest/googlemock/cmake_install.cmake")
+  include("/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_control/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

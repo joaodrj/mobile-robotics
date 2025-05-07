@@ -1,0 +1,1 @@
+/home/joao/mobile-robotics/mobile-robotics/avoid_obstacles_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

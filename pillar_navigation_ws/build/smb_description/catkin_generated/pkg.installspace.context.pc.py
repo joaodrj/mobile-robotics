@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "xacro;hector_gazebo_plugins".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lsmb_description".split(';') if "-lsmb_description" != "" else []
 PROJECT_NAME = "smb_description"
-PROJECT_SPACE_DIR = "/home/joao/pillar_navigation_ws/install"
+PROJECT_SPACE_DIR = "/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install"
 PROJECT_VERSION = "0.1.1"

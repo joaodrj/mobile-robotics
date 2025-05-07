@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
+CMAKE_SOURCE_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/pillar_navigation_ws/build/smb_gazebo
+CMAKE_BINARY_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo
 
 # Include any dependencies generated for this target.
 include CMakeFiles/odometry_source_plugin.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/odometry_source_plugin.dir/progress.make
 include CMakeFiles/odometry_source_plugin.dir/flags.make
 
 CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o: CMakeFiles/odometry_source_plugin.dir/flags.make
-CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o: /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o -c /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
+CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o -c /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
 
 CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp > CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp > CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.i
 
 CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp -o CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp -o CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.s
 
 # Object files for target odometry_source_plugin
 odometry_source_plugin_OBJECTS = \
@@ -77,45 +77,45 @@ odometry_source_plugin_OBJECTS = \
 # External object files for target odometry_source_plugin
 odometry_source_plugin_EXTERNAL_OBJECTS =
 
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/build.make
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroslib.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librospack.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libactionlib.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroscpp.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf2.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librostime.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/src/OdometrySource.cpp.o
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/build.make
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroslib.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librospack.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libactionlib.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroscpp.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libtf2.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/librostime.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so: CMakeFiles/odometry_source_plugin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odometry_source_plugin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/odometry_source_plugin.dir/build: /home/joao/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so
+CMakeFiles/odometry_source_plugin.dir/build: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_gazebo/lib/libodometry_source_plugin.so
 
 .PHONY : CMakeFiles/odometry_source_plugin.dir/build
 
@@ -124,6 +124,6 @@ CMakeFiles/odometry_source_plugin.dir/clean:
 .PHONY : CMakeFiles/odometry_source_plugin.dir/clean
 
 CMakeFiles/odometry_source_plugin.dir/depend:
-	cd /home/joao/pillar_navigation_ws/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/odometry_source_plugin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/odometry_source_plugin.dir/depend
 

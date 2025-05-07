@@ -1,0 +1,13 @@
+<launch>
+  <param name="use_sim_time" value="true"/>
+
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+    <arg name="world" value="pillars_norobot"/>
+  </include>
+
+  <node pkg="pillar_navigation" type="pillar_navigator.py" name="pillar_navigator" output="screen">
+    <param name="linear_gain"  value="0.5"/>
+    <param name="angular_gain" value="2.0"/>
+  </node>
+</launch>
+

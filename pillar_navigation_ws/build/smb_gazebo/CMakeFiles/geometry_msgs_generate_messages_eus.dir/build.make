@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
+CMAKE_SOURCE_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joao/pillar_navigation_ws/build/smb_gazebo
+CMAKE_BINARY_DIR = /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/joao/pillar_navigation_ws/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo /home/joao/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/build/smb_gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

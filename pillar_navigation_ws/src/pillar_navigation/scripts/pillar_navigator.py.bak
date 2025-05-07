@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+
+import rospy
+from sensor_msgs.msg import LaserScan
+from geometry_msgs.msg import Twist
+from visualization_msgs.msg import Marker
+import math
+
+class PillarNavigator:
+    def __init__(self):
+        rospy.loginfo("PillarNavigator started.")
+        
+        self.scan_sub = rospy.Subscriber("/rslidar/scan", LaserScan, self.scan_callback)
+        self.cmd_pub = rospy.Publisher("/cmd_vel", Twist, queue_size=10)
+        self.marker_pub = rospy.Publisher("/pillar_marker", Marker, queue_size=10)
+
+        self.linear_gain = rospy.get_param("~linear_gain", 0.5)
+        self.angular_gain = rospy.get_param("~angular_gain", 2.0)
+
+    def scan_callback(self, scan_msg):
+        if not scan_msg.ranges:
+            rospy.logwarn("Empty scan received.")
+            return
+
+        min_range = min(scan_msg.ranges)
+        min_index = scan_msg.ranges.index(min_range)
+        angle = scan_msg.angle_min + min_index * scan_msg.angle_increment
+
+        x = min_range * math.cos(angle)
+        y = min_range * math.sin(angle)
+
+        self.publish_marker(x, y)
+
+        cmd = Twist()
+        cmd.linear.x = self.linear_gain * min_range
+        cmd.angular.z = -self.angular_gain * angle
+        self.cmd_pub.publish(cmd)
+
+    def publish_marker(self, x, y):
+        marker = Marker()
+        marker.header.frame_id = "rslidar"
+        marker.header.stamp = rospy.Time.now()
+        marker.ns = "pillar"
+        marker.id = 0
+        marker.type = Marker.SPHERE
+        marker.action = Marker.ADD
+        marker.pose.position.x = x
+        marker.pose.position.y = y
+        marker.pose.position.z = 0.0
+        marker.scale.x = 0.2
+        marker.scale.y = 0.2
+        marker.scale.z = 0.2
+        marker.color.a = 1.0
+        marker.color.r = 1.0
+        marker.color.g = 0.0
+        marker.color.b = 0.0
+        self.marker_pub.publish(marker)
+
+if __name__ == "__main__":
+    rospy.init_node("pillar_navigator")
+    navigator = PillarNavigator()
+    rospy.spin()
+

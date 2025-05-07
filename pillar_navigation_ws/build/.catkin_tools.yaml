@@ -1,6 +1,6 @@
-devel_space: /home/joao/pillar_navigation_ws/devel
+devel_space: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel
 install: false
-install_space: /home/joao/pillar_navigation_ws/install
+install_space: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/install
 profile: default
-source_space: /home/joao/pillar_navigation_ws/src
-workspace: /home/joao/pillar_navigation_ws
+source_space: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src
+workspace: /home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws

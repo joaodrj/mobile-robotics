@@ -1,1 +1,1 @@
-/home/joao/pillar_navigation_ws/devel/.private/smb_control/lib/pkgconfig/smb_control.pc
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/smb_control/lib/pkgconfig/smb_control.pc

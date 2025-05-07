@@ -1,1 +1,1 @@
-/home/joao/pillar_navigation_ws/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/devel/.private/catkin_tools_prebuild/setup.zsh

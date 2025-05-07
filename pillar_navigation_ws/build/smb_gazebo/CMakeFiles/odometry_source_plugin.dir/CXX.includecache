@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/include/smb_gazebo/OdometrySource.hpp
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/include/smb_gazebo/OdometrySource.hpp
 string
 -
 boost/thread.hpp
@@ -38,7 +38,7 @@ tf2_ros/transform_broadcaster.h
 geometry_msgs/TransformStamped.h
 -
 
-/home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/OdometrySource.cpp
 string
 -
 tf/tf.h
@@ -46,7 +46,7 @@ tf/tf.h
 stdlib.h
 -
 smb_gazebo/OdometrySource.hpp
-/home/joao/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/smb_gazebo/OdometrySource.hpp
+/home/joao/mobile-robotics/mobile-robotics/pillar_navigation_ws/src/smb_common_v2/smb_gazebo/src/smb_gazebo/OdometrySource.hpp
 ignition/math/Rand.hh
 -
 
