@@ -1,0 +1,8 @@
+prefix=/home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/.private/gmap_slam
+
+Name: gmap_slam
+Description: Description of gmap_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

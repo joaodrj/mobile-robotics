@@ -1,0 +1,1 @@
+/home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/.private/catkin_tools_prebuild/setup.sh

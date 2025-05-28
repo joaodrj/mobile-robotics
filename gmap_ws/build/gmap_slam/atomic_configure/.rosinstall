@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/.private/gmap_slam/setup.sh

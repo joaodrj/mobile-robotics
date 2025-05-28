@@ -1,0 +1,16 @@
+Symlinking /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig.cmake
+Symlinking /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig-version.cmake
+Symlinking /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/lib/pkgconfig/gmap_slam.pc
+Symlinking /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/lib/gmap_slam/cmake.lock
+Symlinking /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel/lib/gmap_slam/random_walk.py
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/cmake.lock, /home/joao/gmap_ws/devel/./cmake.lock)
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/share/gmap_slam/cmake/gmap_slamConfig.cmake, /home/joao/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig.cmake)
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/share/gmap_slam/cmake/gmap_slamConfig-version.cmake, /home/joao/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig-version.cmake)
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/lib/pkgconfig/gmap_slam.pc, /home/joao/gmap_ws/devel/lib/pkgconfig/gmap_slam.pc)
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/lib/gmap_slam/cmake.lock, /home/joao/gmap_ws/devel/lib/gmap_slam/cmake.lock)
+Cleaning: (/home/joao/gmap_ws/devel/.private/gmap_slam/lib/gmap_slam/random_walk.py, /home/joao/gmap_ws/devel/lib/gmap_slam/random_walk.py)
+Unlinking: /home/joao/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig.cmake
+Unlinking: /home/joao/gmap_ws/devel/share/gmap_slam/cmake/gmap_slamConfig-version.cmake
+Unlinking: /home/joao/gmap_ws/devel/lib/pkgconfig/gmap_slam.pc
+Unlinking: /home/joao/gmap_ws/devel/lib/gmap_slam/cmake.lock
+Unlinking: /home/joao/gmap_ws/devel/lib/gmap_slam/random_walk.py

@@ -1,0 +1,6 @@
+devel_space: /home/joao/mobile-robotics/mobile-robotics/gmap_ws/devel
+install: false
+install_space: /home/joao/mobile-robotics/mobile-robotics/gmap_ws/install
+profile: default
+source_space: /home/joao/mobile-robotics/mobile-robotics/gmap_ws/src
+workspace: /home/joao/mobile-robotics/mobile-robotics/gmap_ws
