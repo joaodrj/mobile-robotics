@@ -17,7 +17,6 @@ Fazer o robô mapear um ambiente desconhecido enquanto se move de forma autônom
 
 Abaixo estão os comandos utilizados para executar todo o projeto, com as respectivas descrições.
 
-### Iniciar a simulação no Gazebo com o TurtleBot3
 ```bash
 #Inicia a simulação no gazebo com o robô
 cd ~/mobile-robotics/mobile-robotics/gmap_ws
